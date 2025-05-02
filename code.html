@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hover Effect Example</title>
+    <style>
+      gen {
+        width: 150px;
+        height: 150px;
+        background-color: lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">
+    <button class="gen">Button</button>
+  </div>
+    <script>
+      document.getElementById('box').addEventListener('mouseover', function () {
+        this.style.textColor = 'orange';
+      });
+    </script>
+  </body>
+</html>
